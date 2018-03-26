@@ -34,6 +34,6 @@ sysinfo.txt
 *.unitypackage
 
 VR-Flying-Platform/Temp/UnityLockfile
-VR-Flying_Platform/Library
-VR-Flying_Platform/Temp
-VR-Flying_Platform/Builds
+VR-Flying-Platform/Library
+VR-Flying-Platform/Temp
+VR-Flying-Platform/Builds
