@@ -32,8 +32,7 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
-VR-Flying_Platform/Library
-VR-Flying_Platform/Temp
-VR-Flying_Platform/Builds
-
+VR-Flying_Platform/Library/
+VR-Flying_Platform/Temp/
+VR-Flying_Platform/Builds/
 
