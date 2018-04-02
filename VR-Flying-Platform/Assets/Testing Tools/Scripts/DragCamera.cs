@@ -66,6 +66,7 @@ namespace MyTools
                 //difference (in screen coordinates)
                 float DiffX = EndMouseX - StartMouseX;
                 float DiffY = EndMouseY - StartMouseY;
+                if (DiffX == 0 && DiffY == 0) return;
 
                 //New center of the screen
                 float newCenterX = Screen.width / 2 + DiffX;
