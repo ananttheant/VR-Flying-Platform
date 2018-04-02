@@ -82,8 +82,9 @@ namespace MyTools
                 StartMouseY = EndMouseY;
             }
         }
-    }
+
         #endif
+    }
 }
 
 
