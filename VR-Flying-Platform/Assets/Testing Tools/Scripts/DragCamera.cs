@@ -6,15 +6,13 @@ using UnityEngine;
 namespace MyTools
 {
 
-    
+
 
     public class DragCamera : MonoBehaviour
     {
         //only want this to work in editor not in the build 
-        #if UNITY_EDITOR
-        
-        //flag to check dragging
-        bool isDragging = false;
+#if UNITY_EDITOR //flag to check dragging
+        private bool _isDragging= false;
 
         //starting point of the camera movement
         private float StartMouseX;
@@ -35,10 +33,10 @@ namespace MyTools
         {
             //if we press the right mouse button and we haven't started dragging
 
-            if (Input.GetMouseButtonDown(1) && !isDragging)
+            if (Input.GetMouseButtonDown(1) && !_isDragging)
             {
                 //set flag to true
-                isDragging = true;
+                _isDragging = true;
 
                 //save the mouse starting position
                 StartMouseX = Input.mousePosition.x;
@@ -46,10 +44,10 @@ namespace MyTools
 
             }
             //if we are not pressing, and we were dragging
-            if (Input.GetMouseButtonUp(1) && isDragging)
+            if (Input.GetMouseButtonUp(1) && _isDragging)
             {
                 //set the flag to false
-                isDragging = false;
+                _isDragging = false;
             }
 
         }
@@ -57,7 +55,7 @@ namespace MyTools
         void LateUpdate()
         {
             //if we are dragging
-            if (isDragging)
+            if (_isDragging)
             {
                 //calculate the current position of the mouse
                 float EndMouseX = Input.mousePosition.x;
@@ -82,9 +80,11 @@ namespace MyTools
                 StartMouseY = EndMouseY;
             }
         }
+#endif
     }
-        #endif
+
 }
+
 
 
 
