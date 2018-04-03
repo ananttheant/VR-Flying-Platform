@@ -13,3 +13,6 @@ You can find the application in the release for the following platform:
 If you're a lazy developer like me and don't always feel like pluging in you HMD, i've added a tool, to move the camera when you keep pressing right Mouse Button and drag it(Only Works in Editor). 
 
 And the left mouse to move and stop the platform.
+
+The Drawing cycles are at 7.
+
