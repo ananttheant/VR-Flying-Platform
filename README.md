@@ -8,3 +8,7 @@ You can find the application in the release for the following platform:
 2. GearVr
 3. Oculus Rift
 4. HTC Vive, and other OpenVR Compatible devices
+
+# Extra
+If you're a lazy developer like me and don't always feel like pluging in you HMD, i've added a tool, to move the camera when you keep pressing right Mouse Button and drag it. (Only Works in Editor) 
+And the left mouse to move and stop the platform.
