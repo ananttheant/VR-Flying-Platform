@@ -243,6 +243,14 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7999998
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: fb28dbd982a5759469b56c5ff8a0925f, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: fb28dbd982a5759469b56c5ff8a0925f, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fb28dbd982a5759469b56c5ff8a0925f, type: 3}
   m_IsPrefabParent: 0
@@ -296,6 +304,14 @@ Prefab:
     - target: {fileID: 400000, guid: 604a4d014ff5a784d88e2bc4ba729cc4, type: 3}
       propertyPath: m_LocalScale.z
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 604a4d014ff5a784d88e2bc4ba729cc4, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 604a4d014ff5a784d88e2bc4ba729cc4, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 604a4d014ff5a784d88e2bc4ba729cc4, type: 3}
