@@ -1,6 +1,7 @@
 # VR Flying Platform
 Greetings Wanderer!
 You've stumbled upon a VR experience where can you just sit back, put on your HMD and experience a flying platform moving to predefiend destinations over a low-poly world, with just simple input you can stop the platform at any point for the view.
+![untitled](https://user-images.githubusercontent.com/10895811/38937370-ab72d120-4340-11e8-911a-ea76cb7590dc.png)
 
 # Releases
 You can find the application in the release for the following platform:
